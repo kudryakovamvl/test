@@ -1,0 +1,195 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	cursor: default;
+}
+.content-link {
+	color: #000;
+}
+.content-link:hover {
+	color: #007bff;
+	text-decoration: none;
+}
+.content-link:active {
+	font-size: 2em;
+}
+.cont-img {
+	width: 21.875em;
+	height: 17.1875em;
+}
+.navbar .navbar-brand {
+	font-size: 3rem;
+}
+.nav-item {
+	padding-right: 20px;
+	text-transform: uppercase;
+}
+.nav-link {
+	font-size: 1.2rem;
+}
+.carousel-inner img {
+	width: 1024px;
+	height: 768px;
+}
+.carousel-caption {
+	position: absolute;
+	top: 57%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1{
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 5px #000;
+}
+.carousel-caption h3 {
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 8px 8px 15px #000;
+	padding-bottom: 1rem;
+}
+.welcome {
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+h1, .about-title, .navbar .navbar-brand, .logo-link:hover {
+	color: #007bff;
+}
+#white {
+	color: #fff;
+}
+#top-btn {
+	padding: 0.7em 2em;
+}
+
+.col-sm-6 {
+	font-size: 1.4rem;
+}
+.about {
+	margin: 0 auto;
+}
+.about-text, .product-text {
+	padding-top: 3vh;
+	padding-bottom: 10vh;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+footer {
+	background: #595959;
+}
+p {
+	margin-bottom: 0.1em;
+}
+.footer-link:hover {
+	text-decoration: none;
+}
+.menu, .dishes {
+	margin-bottom: 2.5em;
+}
+.black {
+	color: black;
+	margin-bottom: 1.3em;
+	margin-top: .8em;
+}
+.contact-p {
+	font-size: 1.5em;
+}
+.product-text {
+	font-size: 1.2em;
+}
+.grid__item {
+	position: relative;
+	width: 33%;
+}
+.grid__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .5);
+	transition: .5s;
+}
+.grid__overlay:hover {
+	background: rgba(0, 0, 0, .7);
+}
+.grid__picture {
+	max-width: 100%;
+	min-height: 350px;
+	max-height: 350px;
+	display: block;
+}
+.grid__link {
+	color: #fff;
+	text-align: center;
+	font-size: 3rem;
+}
+.grid__text{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.journal {
+	margin-bottom: 2em;
+}
+.footer-content-1 {
+	margin-top: 0.5em;
+}
+.footer-content-2 {
+	margin-bottom: 0.5em;
+}
+.map {
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+.card-journal {
+	margin-bottom: 2.5em;
+}
+.icon-64 {
+	width: 4em;
+	height: 4em;
+}
+.menu-content {
+	margin-top: 1em;
+
+}
+.list-item:hover {
+	background: #007bff;
+	cursor: pointer;
+}
+.menu-name {
+	margin-bottom: .8em;
+}
+.price {
+	margin-bottom: 1em;
+	margin-top: .8em;
+}
+.menu-pic, .dish-pic {
+	height: 35.3125em;
+	width: 54.375em;
+}
+.logo {
+	height: 75px;
+	width: 75px;
+}
+.menu-title, .dish-title, .journal-title, .contact-title, .product-title {
+	margin-top: 2.5em;
+	margin-bottom: .8em;
+}
+.popular-card {
+	margin-bottom: 1.5em;
+}
+.popular-name {
+	margin-top: .6em;
+	margin-bottom: .5em;
+}
+.product-title-2 {
+	margin-bottom: .7em;
+}
+.time-pic{
+	width: 500px;
+	height: 900px;
+}
